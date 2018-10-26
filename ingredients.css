@@ -1,9 +1,9 @@
 .bun-top {
   height: 70px;
-  width: 60%;
+  width: 65%;
   background: #e5b05a;
   border-radius: 100px 100px 20px 20px;
-  border-bottom: solid 10px rgba(0,0,0,.1);
+  border-top: dotted 10px rgba(241, 241, 209, 0.891);
 }
 
 .cheese {
@@ -32,7 +32,7 @@
 .patty {
   height: 35px;
   width: 65%;
-  background: #ad370b;
+  background: #5A0001;
   border-radius: 15px;
   border-bottom: solid 2px rgba(0,0,0,.1);
 }
@@ -46,17 +46,18 @@
 }
 
 .onion {
-  width: 40%;
+  width: 60%;
   background-color: #a039bf;
   border-top: dotted 20px rgba(255,255,255,.2);
 }
 
 .bun-bottom {
   height: 35px;
-  width: 60%;
+  width: 65%;
   background: #e5b05a;
   border-radius: 20px 20px 40px 40px;
-  border-top: solid 8px rgba(0,0,0,.1)
+  border-top: solid 8px rgba(0,0,0,.1);
+  border-bottom:solid 10px wheat; 
 }
 
 .plate {
@@ -64,4 +65,18 @@
   width: 80%;
   background: #656565;
   border-radius: 20px 20px 200px 200px;
+}
+.lettuce {
+  height: 20px;
+  width: 60%;
+  background: #1ebd6b;
+  border-radius: 20px;
+  border-bottom:solid 2px #7df1b5;
+
+}
+.avocodo {
+  height: 20px;
+  width: 55%;
+  background: rgb(191, 231, 146);s
+border-top: #2d9961 soild 5px;
 }
